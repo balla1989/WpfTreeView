@@ -6,7 +6,21 @@
         xmlns:local="clr-namespace:WpfTreeView"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <!--Hello-->
-    </Grid>
+    <StackPanel>
+
+        <StackPanel Orientation="Horizontal">
+            
+            
+        </StackPanel>
+
+        <TreeView x:Name="FolderView">
+            <TreeView.Resources>
+
+                <Style TargetType="{x:Type TreeViewItem}">
+                </Style>
+
+            </TreeView.Resources>
+            
+        </TreeView>
+    </StackPanel>
 </Window>
